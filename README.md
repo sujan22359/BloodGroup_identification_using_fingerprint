@@ -2,7 +2,7 @@
 
 This project implements a deep learning model to classify blood groups from images using a custom Convolutional Neural Network (CNN) with Residual Blocks. The project is built with PyTorch and includes a Streamlit web application for real-time inference and Grad-CAM visualization to interpret the model's predictions.
 
-## 🌟 Features
+##  Features
 
 - **Custom CNN Architecture**: A PyTorch-based CNN integrated with a Residual Block for improved feature extraction and gradient flow.
 - **8-Class Classification**: Classifies images into 8 distinct blood groups: `A-`, `A+`, `B-`, `B+`, `AB-`, `AB+`, `O-`, `O+`.
@@ -10,7 +10,7 @@ This project implements a deep learning model to classify blood groups from imag
 - **Explainable AI (XAI)**: Integrates Grad-CAM (Gradient-weighted Class Activation Mapping) to visualize which parts of the image the model focuses on to make its predictions.
 - **Jupyter Notebooks**: Includes notebooks for training (`train.ipynb`) and Grad-CAM experimentation (`gradcam_cnn.ipynb`).
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 CNN/
@@ -26,7 +26,7 @@ CNN/
 └── README.md                             # Project documentation
 ```
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 The model is a custom CNN that takes `224x224` RGB images as input. It consists of:
 - 4 Convolutional Layers with ReLU activation and Max Pooling.
@@ -41,7 +41,7 @@ The model is a custom CNN that takes `224x224` RGB images as input. It consists 
 
 *(For a detailed layer-by-layer breakdown, see `Output/model_summary.txt`)*
 
-## 🛠️ Installation & Setup
+##  Installation & Setup
 
 1. **Clone the repository** (or download the project folder):
    ```bash
@@ -62,7 +62,7 @@ The model is a custom CNN that takes `224x224` RGB images as input. It consists 
    pip install streamlit numpy pillow matplotlib grad-cam tqdm
    ```
 
-## 🚀 Usage
+##  Usage
 
 ### 1. Running the Web Application
 To start the Streamlit app for inference and Grad-CAM visualization:
@@ -83,7 +83,7 @@ If you want to retrain the model on your own dataset:
 ### 3. Grad-CAM Experimentation
 Open `gradcam_cnn.ipynb` in Jupyter Notebook or VS Code to experiment with the Grad-CAM visualizations step-by-step.
 
-## 🧰 Technologies Used
+##  Technologies Used
 
 - **Deep Learning Framework**: PyTorch, Torchvision
 - **Web Framework**: Streamlit
