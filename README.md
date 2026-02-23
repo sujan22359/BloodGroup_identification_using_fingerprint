@@ -25,7 +25,7 @@ CNN/
 │   └── model_summary.txt                 # Detailed model architecture and parameter summary
 └── README.md                             # Project documentation
 ```
-
+                          
 ##  Model Architecture
 
 The model is a custom CNN that takes `224x224` RGB images as input. It consists of:
